@@ -33,9 +33,7 @@
             console.log("Button Destroyed");
         },
     });
-</script>
-
- <script lang="js">    
+       
     jQuery(function($, undefined) {
       $('terminal').terminal(function(command) {
           if (command !== '') {
@@ -52,7 +50,7 @@
           prompt: 'js> '
       });
     });
-  </script>
+</script>
 
 <radix-connect-button />
 
