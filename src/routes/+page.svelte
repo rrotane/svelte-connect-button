@@ -35,6 +35,25 @@
     });
 </script>
 
+ <script lang="js">    
+    jQuery(function($, undefined) {
+      $('terminal').terminal(function(command) {
+          if (command !== '') {
+              var result = window.eval(command);
+              if (result != undefined) {
+                  this.echo(String(result));
+              }
+          }
+      }, {
+          greetings: 'Javascript Interpreter',
+          name: 'js_demo',
+          height: 200,
+          width: 450,
+          prompt: 'js> '
+      });
+    });
+  </script>
+
 <radix-connect-button />
 
 <style>
