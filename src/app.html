@@ -5,8 +5,13 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
+		<link rel="stylesheet" href="%sveltekit.assets%/style.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal@2.35.2/css/jquery.terminal.min.css"> 
+		<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery.terminal@2.35.2/js/jquery.terminal.min.js"></script>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
+		<div><terminal /></div>
 	</body>
 </html>
