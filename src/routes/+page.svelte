@@ -52,16 +52,24 @@
     });
 </script>
 
-<radix-connect-button />
 <terminal />
+<radix-connect-button />
 
-<style>
-    radix-connect-button {
-        position: static;
-    }
-    
+<style>    
     terminal {
         position: static;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    radix-connect-button {
+        position: static;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 </style>
 
