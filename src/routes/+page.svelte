@@ -43,11 +43,11 @@
               }
           }
       }, {
-          greetings: 'Javascript Interpreter',
+          greetings: 'Radix terminal',
           name: 'js_demo',
           height: 200,
           width: 450,
-          prompt: 'js> '
+          prompt: 'radix> '
       });
     });
 </script>
@@ -56,7 +56,14 @@
 
 <style>
     radix-connect-button {
-        position: absolute;
-        right: 10px
+        position: static;
+    }
+</style>
+
+<terminal />
+
+<style>
+    terminal {
+        position: static;
     }
 </style>
