@@ -58,10 +58,10 @@
 <style>
     radix-connect-button {
         position: static;
-    };
+    }
     
     div {
         position: static;
-    };
+    }
 </style>
 
