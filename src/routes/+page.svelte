@@ -53,17 +53,15 @@
 </script>
 
 <radix-connect-button />
+<terminal />
 
 <style>
     radix-connect-button {
         position: static;
-    }
-</style>
-
-<terminal />
-
-<style>
+    };
+    
     terminal {
         position: static;
-    }
+    };
 </style>
+
